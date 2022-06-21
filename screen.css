@@ -1,0 +1,302 @@
+@media only screen and (min-width: 560px) {
+
+    .menu-buttons {
+        width: auto;
+        padding: 10px 20px;
+    }
+
+    #watched-stats {
+        float: right;
+    }
+
+    #content-container #search-list {
+        width: 50%;
+    }
+
+    #info-container #info-container__inner {
+        width: calc(90% - 34px);
+    }
+
+
+
+    /* Import likes form */
+    #import-likes-form {
+        width: 500px !important;
+        left: calc(50% - 270px);
+        padding: 20px !important;
+    }
+
+    #import-likes-form h3 {}
+
+
+    #import-likes-form p {}
+
+    #import-likes-form ul {
+        font-size: 15px;
+    }
+
+
+    #import-likes-form li {}
+
+
+
+
+    #import-likes-form #copy-code {}
+
+    #copy-code p {}
+
+    #import-likes-form textarea {}
+
+    #import-likes-form .button-style {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Table */
+    .alt-desc {
+        display: none;
+    }
+
+    .main-desc {
+        display: inline;
+    }
+
+
+    #big-list th,
+    #big-list td {
+        padding: 5px 0px;
+    }
+
+    /* Legend */
+    #big-list tbody:first-child {}
+
+    #big-list tbody:first-child tr {}
+
+    #big-list tbody:first-child tr th {
+        display: table-cell;
+    }
+
+    #big-list tbody:first-child tr th:nth-of-type(1) {}
+
+    #big-list tbody:first-child tr th:nth-of-type(1) h4 {
+        width: 40px;
+    }
+
+    #big-list tbody:first-child tr th:nth-of-type(2) {
+        padding-left: 10px;
+        text-align: left;
+    }
+
+    #big-list tbody:first-child tr th:nth-of-type(3) {}
+
+    #big-list tbody:first-child tr th:nth-of-type(3) h4 {}
+
+    #big-list tbody:first-child tr th:nth-of-type(4) {}
+
+    #big-list tbody:first-child tr th:nth-of-type(4) h4 {}
+
+    #big-list tbody:first-child tr th:nth-of-type(5) {}
+
+    #big-list tbody:first-child tr th:nth-of-type(5) h4 {}
+
+
+    #big-list tbody:first-child tr th:nth-of-type(6) {}
+
+    table tbody:first-child tr th:nth-of-type(6) h4 {}
+
+    /* Actual list */
+    /* Group descriptions */
+
+    #big-list .group {
+        border-bottom: 2px solid #cae9ff;
+    }
+
+    #big-list .group tr:first-child {
+        border-bottom: none;
+    }
+
+    #big-list .group tr:first-child th:nth-of-type(1) {
+        border-right: none;
+    }
+
+
+
+    #big-list .group tr:first-child th:nth-child(n+2) {
+        display: table-cell;
+    }
+
+    #big-list .group tr:first-child th:nth-of-type(2) {
+        padding-left: 5px;
+        text-align: left;
+    }
+
+    #big-list .group tr:first-child th:nth-of-type(3) {}
+
+    #big-list .group tr:first-child th:nth-of-type(4) {}
+
+    #big-list .group tr:first-child th:nth-of-type(5) {}
+
+    #big-list .group tr:first-child th:nth-of-type(5) img {
+        width: 30px;
+    }
+
+    #big-list .group tr:first-child th:nth-of-type(6) {
+        /* padding-bottom: 20px; */
+    }
+
+    /* Group children */
+
+    #big-list .group tr:nth-child(n+2) {}
+
+    #big-list .group tr:nth-child(n+2) td {}
+
+    #big-list .group tr:nth-child(n+2) td:nth-of-type(1) {}
+
+    #big-list .group tr:nth-child(n+2) td:nth-child(n+2) {
+        display: table-cell;
+    }
+
+    #big-list .group tr:nth-child(n+2) td:nth-of-type(2) {
+        padding-left: 5px;
+        text-align: left;
+    }
+
+    #big-list .group tr:nth-child(n+2) td:nth-of-type(3) {}
+
+    #big-list.group tr:nth-child(n+2) td:nth-of-type(4) {}
+
+    #big-list.group tr:nth-child(n+2) td:nth-of-type(5) {}
+
+
+
+
+    .arrow {
+        padding: 4px;
+        margin: 9px 0px;
+        border-width: 0px 3px 3px 0;
+    }
+
+}
+
+@media only screen and (min-width: 650px) {
+
+    #add-form {
+        width: 350px !important;
+        left: calc(50% - 180px);
+    }
+
+
+
+
+    /* Import likes form */
+    #import-likes-form {}
+
+    #import-likes-form h3 {}
+
+
+    #import-likes-form p {}
+
+    #import-likes-form ul {
+        font-size: 18px;
+    }
+
+    #copy-code p {
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+    #big-list tbody:first-child tr th:nth-of-type(3) h4 {}
+
+    #big-list tbody:first-child tr th:nth-of-type(4) {}
+
+    #big-list tbody:first-child tr th:nth-of-type(4) h4 {}
+
+    #big-list tbody:first-child tr th:nth-of-type(5) {}
+
+    #big-list tbody:first-child tr th:nth-of-type(5) h4 {}
+
+    #big-list tbody:first-child tr th:nth-of-type(6) {}
+
+    table tbody:first-child tr th:nth-of-type(6) h4 {}
+
+    #big-list .group tr:first-child th:nth-child(n+2) {
+        padding: 5px 10px;
+    }
+
+}
+
+@media only screen and (min-width: 750px) {
+
+    #info-container #info-container__inner {
+        width: calc(80% - 44px);
+        padding: 20px 15px 10px 15px;
+    }
+
+    #content-container #search-list {
+        width: 50%;
+    }
+
+    #big-list tbody:first-child tr th:nth-of-type(3) h4 {
+        min-width: 140px
+    }
+
+    #big-list tbody:first-child tr th:nth-of-type(4) h4 {
+        min-width: 120px
+    }
+
+    #big-list .group tr:first-child th:nth-of-type(5) img {
+        width: 35px;
+    }
+
+}
+
+@media only screen and (min-width: 900px) {
+
+    #add-form {
+        width: 500px !important;
+        left: calc(50% - 250px);
+        position: absolute;
+    }
+
+    #content-container {
+        width: calc(100% - 60px);
+        padding: 30px;
+    }
+
+    #info-container #info-container__inner {
+        width: 750px;
+        padding: 10px 20px;
+    }
+
+    #content-container #search-list {
+        width: 33%;
+    }
+
+    #big-list tbody:first-child tr th:nth-of-type(3),
+    #big-list tbody:first-child tr th:nth-of-type(4),
+    #big-list tbody:first-child tr th:nth-of-type(5) {
+        padding: 0 15px;
+    }
+
+}

@@ -1,0 +1,160 @@
+@media print {
+
+    div#info-about {
+        display: none;
+    }
+
+    div#info-import {
+        display: none;
+    }
+
+    div#tools-container {
+        display: none;
+    }
+
+    label.button-style.menu-buttons {
+        display: none;
+    }
+
+    div#search-list {
+        display: none;
+    }
+
+    div#toolbar {
+        display: none;
+    }
+
+    div#edit-toggle {
+        display: none;
+    }
+
+    h4.alt-desc {
+        display: none;
+    }
+
+    th.main-desc {
+        display: table-cell;
+    }
+
+    th:nth-of-type(6) {
+        display: none;
+    }
+
+    img {
+        width: 20px;
+    }
+
+    table#big-list {
+        text-align: left;
+        display: block;
+        overflow: auto;
+        width: fit-content;
+        margin: 0 10px;
+        float: left;
+    }
+
+    body {
+        font-family: sans-serif;
+        background: none;
+        width: 210mm;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    p {
+        margin: 0;
+        padding: 0;
+        font-size: 8px;
+        font-weight: unset;
+    }
+
+    th:nth-of-type(1) {
+        display: none;
+    }
+
+    th:nth-of-type(2) {
+        width: 116px !important;
+    }
+
+    th:nth-of-type(3) {
+        width: 40px !important;
+        text-align: center;
+    }
+
+    th:nth-of-type(4) {
+        width: 62px !important;
+        text-align: center;
+    }
+
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    tbody.group {
+        border-bottom: 1px solid rgb(172, 171, 171);
+        float: left;
+    }
+
+    tbody.group:nth-child(odd) {}
+
+    tbody.group:nth-child(even) {}
+
+    #big-list .group tr:nth-child(n+2) {
+        display: none;
+    }
+
+    tr {
+        height: auto;
+    }
+
+    #watched-stats tr {
+        display: block;
+        float: left;
+    }
+
+
+    div#watched-stats {
+        margin-left: 15px;
+        font-weight: bold;
+    }
+
+
+    #big-list tbody:first-child tr {
+        background: none;
+        height: auto;
+    }
+
+    h4.main-desc {
+        display: block;
+    }
+
+    tr {
+        display: block;
+    }
+
+    #big-list .group tr:first-child th:nth-child(n+2) {
+        display: table-cell;
+        width: auto;
+    }
+
+    #big-list .group tr:first-child th:nth-of-type(5) {
+        width: 23px;
+    }
+
+    #big-list .group tr:first-child th:nth-of-type(2) {
+        padding: 0;
+    }
+
+    #big-list .group tr:first-child {
+        background: none;
+        border: none;
+    }
+
+
+
+
+
+}
